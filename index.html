@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de usuario</title>
+    <style>
+        body {
+            background-color: rgb(149, 213, 247);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 29%;
+            text-align: center;
+        }
+        div {
+            margin-bottom: 15px;
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h2>cadastro completo de usúarios</h2>
+    <form action="">
+<div>
+    <label for="nome">nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="digite seu nome" required>
+</div>
+
+<div>
+    <label for="email">email:</label>
+    <input type="email" name="email" id="email" placeholder="digite seu email" required>
+</div>
+<div>
+<label for="senha ">senha:</label>
+<input type="password" name="senha" id="senha" placeholder="digite sua senha" required>
+</div>
+<div>
+    <label for="tel">telefone:</label>
+    <input type="tel" name="tel" id="tel" placeholder="44xxxxxxxx" required>
+</div>
+<div>
+    <label for="nasc">data de nascimento:</label>
+    <input type="date" name="nasc" id="nasc">
+</div>
+<div>
+    <label>genero</label>
+    <input type="radio" name="genero" id="fem" value="femenino">
+    <label for="fem">femenino</label>
+</div>
+<div>
+    <label>genero</label>
+    <input type="radio" name="genero" id="mas" value="masculino">
+    <label for="mas">masculino</label>
+</div>
+
+<button type="submit">cadastrar</button>
+
+    </form>
+</body> 
+</html>
